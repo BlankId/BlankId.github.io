@@ -1,4 +1,4 @@
-var _Welcome =("Selamat Datang di calculator yang cacad")
+var _Welcome =("Selamat Datang di calculator yang cacad, masih belajar soalnya awokwokwwk")
 alert(_Welcome)
 console.log("Testing Console")
 
