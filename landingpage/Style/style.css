@@ -1,0 +1,164 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Permanent+Marker&display=swap');
+/* Google Fonts */
+
+body{
+    height: 1200px;
+}
+nav{
+    position: fixed;    
+}
+.jumbotron{        
+    background-image: url(../Images/Jumbotron.jpg);
+    background-size: cover;
+    height: 440px;    
+    position: relative;
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'Permanent Marker';
+}
+.jumbotron::after{
+    content: '';
+    background-image: linear-gradient(to top,rgba(0,0,0,1), rgba(0,0,0,0.5));
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;           
+}
+.jumbotron .container{
+    margin-top: 150px;
+    font-weight: 1000;
+    position: relative;
+    z-index: 1;
+}
+.btn.btn-light{
+    font-size: 16px;    
+    padding: 5px;    
+    text-decoration: none;  
+    color: black;
+
+}
+.btn.btn-light a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.content{
+    width: 75%;
+    margin: auto;
+    padding: 20px;    
+}
+.content .container{
+    background-color: black;
+    padding: 0;    
+}
+.carousel-item img{
+    background-color: rgba(0,0,0,1);
+    opacity: 0.3;
+}
+.box-title{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Mansalva';
+    font-weight: 500;
+    text-decoration: underline;
+}
+.carousel-inner h5, p{
+    font-size: 12px;
+}
+.modal-dialog .modal-content{
+    position: relative;    
+    z-index: 1;
+}
+.end-classs{
+    margin-top: 200px;
+    opacity: 0.4;
+}
+.blured{    
+    width: 75%;      
+    opacity: 0.3;    
+}
+.row.no-gutters{
+    text-align: center;
+}
+.card-img{    
+    width: 75%;
+    opacity: 0.1;
+    left: 0;
+}
+.card-body{
+    text-align: center;
+}
+.texttt{
+    text-decoration: underline;
+}
+/*Desktop Ver*/
+@media (min-width:1200px){
+    .navbar{
+        position: relative;
+        z-index: 1;
+    }
+    /*navbars-link*/
+    .nav-link{
+        margin: 0 30px;  
+        color: aliceblue !important;  
+        font-weight: 200;    
+    }        
+    /*jumbotron*/
+    .jumbotron{        
+        background-image: url(../Images/Jumbotron.jpg);
+        background-size: cover;
+        height: 540px;
+        margin-top: -75px;
+        position: relative;
+    }
+    .jumbotron::after{
+        content: '';
+        background-image: linear-gradient(to top,rgba(0,0,0,1), rgba(0,0,0,0.5));
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;        
+    }
+    .navbar-brand{
+    color: aliceblue !important;
+    font-weight: 500;
+    }
+    .content{
+        width: 1000px;
+        margin: 150px auto;
+        padding: 20px;
+    }
+    .box-title{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 500;    
+        font-family: 'Mansalva';
+        text-decoration: underline;
+    }
+    .carousel-inner h5, p{
+        font-size: 16px;
+    }
+    .card{
+        margin: 200px auto;        
+        padding-left: 0;
+        width: 540px;        
+    }
+    .card img{
+        margin: 0;
+        width: 190px;
+        height: 190px;
+        opacity: 0.1;
+        left: 0;
+    }
+    .card-body{  
+        padding-top: 0;      
+        right: 0;
+    }
+    .card-text{
+        margin-bottom: 10px;
+    }
+}
