@@ -45,7 +45,7 @@ nav{
     color: black !important;
 }
 .content{
-    width: 75%;
+    width: 100%;
     margin: auto;
     padding: 20px;    
 }
@@ -55,7 +55,7 @@ nav{
 }
 .carousel-item img{
     background-color: rgba(0,0,0,1);
-    opacity: 0.3;
+    opacity: 0.3;    
 }
 .box-title{
     font-size: 16px;
@@ -72,7 +72,7 @@ nav{
     z-index: 1;
 }
 .end-classs{
-    margin-top: 200px;
+    margin-top: 150px;
     opacity: 0.4;
 }
 .blured{    
@@ -82,8 +82,9 @@ nav{
 .row.no-gutters{
     text-align: center;
 }
-.card-img{    
-    width: 75%;
+.card-img{   
+    margin-top: 10px; 
+    width: 50%;
     opacity: 0.1;
     left: 0;
 }
@@ -92,6 +93,10 @@ nav{
 }
 .texttt{
     text-decoration: underline;
+}
+.end-contenr{
+    width: 50%;
+    height: 50%;
 }
 /*Desktop Ver*/
 @media (min-width:1200px){
